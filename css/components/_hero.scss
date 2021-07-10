@@ -1,0 +1,101 @@
+$colorprimary:rgb(38, 93, 156);
+$colorw:rgb(208, 217, 228);
+.container-hero{
+    background-image: url("../img/work-731198_1920.jpg");
+    height: 650px;
+    width: 100%;
+    
+    margin: 0 auto;
+
+    
+}
+.hero{
+    background:rgba(0, 0, 0, 0.842);
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: grid;
+    grid-template-columns:repeat(16,1fr);
+    grid-template-rows: 1fr;
+    padding: 28px;
+    font-size: 1.1rem;
+
+    .nav__logo{
+        grid-column: 2/4;
+
+        :first-child{
+            color: $colorw;
+            display: inline-block;
+
+        }
+        .dev{
+            color:$colorprimary;
+            display: inline-block;
+
+        }
+        
+    }
+    .nav__item1{
+        grid-column: 9/10;
+        color: $colorprimary;
+        
+    }
+    .nav__item2{
+        grid-column: 10/11;
+        color: $colorw;
+    
+    }
+    .nav__item3{
+        grid-column: 11/12;
+        color: $colorw;
+    }
+    .nav__item4{
+        grid-column: 12/13;
+        color: $colorw;
+        
+    }
+    .nav__item5{
+        grid-column: 13/14;
+        color: $colorw;
+      
+    }
+    .nav__item6{
+        grid-column: 14/16;
+        
+
+        a{
+        text-decoration: none;
+        padding: 0.8rem;
+        border-radius: 0.3rem;
+        border: 1px solid $colorprimary;
+        text-align: center;
+        color: $colorprimary;
+        }
+    }
+}
+.hero__perfile{
+    width: 30%;
+    height:max-content;
+    position: relative;
+    margin: 70px auto;
+    color: $colorw;
+    text-align: center;
+    .hero__perfile--img{
+        padding: 20px;
+    }
+
+    .hero__perfile--img img{
+        border-radius: 50%;
+        width: 200px;
+        
+    }
+    .hero__perfile--name{
+        font-size: 2rem;
+        color: $colorprimary;
+    }
+    .hero__perfile--description{
+        font-size: 1.2rem;
+    }
+}
