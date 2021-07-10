@@ -1,10 +1,11 @@
-$colorprimary:rgb(38, 93, 156);
+$colorprimary:#f95c54;
 $colorw:rgb(208, 217, 228);
 .container-hero{
     background-image: url("../img/work-731198_1920.jpg");
     height: 650px;
     width: 100%;
-    
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     margin: 0 auto;
 
     
@@ -20,10 +21,11 @@ nav{
     grid-template-columns:repeat(16,1fr);
     grid-template-rows: 1fr;
     padding: 28px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 
     .nav__logo{
-        grid-column: 2/4;
+        grid-column: 2/6;
+        font-size: 1.2rem;
 
         :first-child{
             color: $colorw;
@@ -92,7 +94,7 @@ nav{
         
     }
     .hero__perfile--name{
-        font-size: 2rem;
+        font-size: 1.7rem;
         color: $colorprimary;
     }
     .hero__perfile--description{

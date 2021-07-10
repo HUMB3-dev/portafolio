@@ -1,0 +1,65 @@
+$colorprimary:#f95c54;
+$colorw:rgb(208, 217, 228);
+
+
+.services{
+    background:#181b29;
+    width: 100%;
+    height: 500px;
+
+    .services__container{
+        display: flex;
+        flex-direction: column;
+        margin:  auto;
+        width: 70%;
+        height: 100%;
+        padding-top: 100px ;
+
+        .services__tittle{
+            width: 100%;
+
+            h2{
+                color: $colorprimary;
+                font-size: 1.2rem;
+                font-weight: 2px;
+                font-family: 'Roboto Slab', serif;
+            }
+            h3{
+                color: $colorw;
+                font-size: 2.5rem;
+
+            }
+        }
+        .services__card{
+            width: 100%;
+            padding-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            
+
+            div{
+                display: flex;
+                width: 28%;
+                border: 2px solid $colorprimary;
+                height: 250px;
+                border-radius: 5px;
+                flex-direction: column;
+                padding: 30px;
+
+                i{
+                    color:$colorprimary;
+                    font-size: 3.6rem;
+                }
+                h3{
+                    color: $colorw;
+                    padding: 10px 0;
+                    font-size: 1.6rem;
+                }
+                p{
+                    color: $colorw;
+                }
+            }
+        }
+    }
+
+}
