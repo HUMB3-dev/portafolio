@@ -6,12 +6,16 @@
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   margin: 0 auto;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 86%, 71% 100%, 31% 85%, 0 100%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 86%, 71% 100%, 31% 85%, 0 100%, 0 0);
 }
 
 .hero {
   background: rgba(0, 0, 0, 0.842);
   width: 100%;
   height: 100%;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 86%, 71% 100%, 31% 85%, 0 100%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 86%, 71% 100%, 31% 85%, 0 100%, 0 0);
 }
 
 nav {
@@ -19,11 +23,11 @@ nav {
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: 1fr;
   padding: 28px;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 nav .nav__logo {
   grid-column: 2/6;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 nav .nav__logo :first-child {
   color: #d0d9e4;
@@ -240,5 +244,5 @@ nav .nav__item6 a {
 
 body {
   font-size: 18pxs;
-  background: rgba(0, 0, 0, 0.705);
+  background: #1e2233;
 }/*# sourceMappingURL=style.css.map */
